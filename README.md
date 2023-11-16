@@ -9,11 +9,11 @@
 - Okay, okay, I got you. Let's see what you got for me.
 
 ## How to run this project
-I higly recommend you to have ```make``` util install on your machine, but if you don't just go to Makefile and copy the requeired commands. E.g. ```make venv``` might be replaced with ```python3 -m venv venv``` and so on
+I higly recommend you to have ```make``` util installed on your machine, but if you don't, just go to ```Makefile``` and copy the required commands. E.g. ```make venv``` might be replaced with ```python3 -m venv venv``` and so on
 
 - Run ```make venv``` to create virtualenv, don't forget to activate it
 - Run ```make install``` to install all dependencies
-- Run ```make dmongo``` to run mongoDB container.
+- Run ```make dmongo``` to run mongoDB container. (maybe you will need to pull this image)
 - Run ```make migrate``` to apply all migrations
 - Run ```make loaddata``` to load all test forms and fields
 - Run ```make run``` to run the development server

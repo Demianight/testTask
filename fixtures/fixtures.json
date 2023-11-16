@@ -1,0 +1,75 @@
+[
+    {
+        "model": "forms.field",
+        "pk": 1,
+        "fields": {
+            "name": "date"
+        }
+    },
+    {
+        "model": "forms.field",
+        "pk": 2,
+        "fields": {
+            "name": "text"
+        }
+    },
+    {
+        "model": "forms.field",
+        "pk": 3,
+        "fields": {
+            "name": "phone"
+        }
+    },
+    {
+        "model": "forms.field",
+        "pk": 4,
+        "fields": {
+            "name": "email"
+        }
+    },
+    {
+        "model": "forms.form",
+        "pk": 1,
+        "fields": {
+            "name": "login",
+            "field": [
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "forms.form",
+        "pk": 2,
+        "fields": {
+            "name": "signUp",
+            "field": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "forms.form",
+        "pk": 3,
+        "fields": {
+            "name": "lastLogin",
+            "field": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "forms.form",
+        "pk": 4,
+        "fields": {
+            "name": "somethingElse",
+            "field": [
+                1
+            ]
+        }
+    }
+]

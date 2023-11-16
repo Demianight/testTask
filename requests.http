@@ -1,0 +1,82 @@
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "date": "2023-15-11",
+    "email": "kdemian@yandex.ru"
+}
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "email": "kdemian@yandex.ru",
+    "date": "2023-15-11",
+    "text": "oqainfgq"
+}
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "email": "kdemian@yandex.ru",
+    "date": "2023-15-11",
+    "text": "oqainfgq",
+    "phone": "oqainfgq"
+}
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "email": "kdemian@yandex.ru",
+    "date": "2023-15-11",
+    "text": "oqainfgq",
+    "phone": "+7 900 000 00 00"
+}
+
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "email": "kdemian@yandex.ru",
+    "phone": "+7 900 000 00 00"
+}
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "text": "+7 900 000 00 00"
+}
+
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "date": "2023-15-11",
+    "email": "kdemian@yandex.ru",
+    "text": "wqogiubjnqwe"
+}
+
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "date": "2023-15-11"
+}
+
+###
+POST http://127.0.0.1:8000/api/forms/get_form/
+Content-Type: application/json
+
+{
+    "email": "admin@admin.admin",
+    "phone": "+7 900 000 00 00",
+    "text": "qwoifgnq",
+    "date": "0000-00-00"
+}
